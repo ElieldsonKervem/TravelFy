@@ -1,0 +1,60 @@
+.cardHeroContainer {
+    @include displayFlex(row, space-around, center);
+    margin-top: 10rem
+}
+
+.mainCard {
+    @include boxeConfig(80rem, 0px, 1rem, 3rem, 1rem);
+   
+    @include displayFlex(column, center, baseline);
+
+    h1{
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+    p{
+        width: 45rem;
+        @include fontMixin(Inter, 1.8rem, 700, 2.7rem, -0.14px);
+        margin-bottom: 2rem;
+    }
+}
+
+.cardHero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardImgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Define duas colunas de largura igual */
+    grid-template-rows: auto auto; /* Define duas linhas com altura automática */
+    grid-template-areas: 
+        "card1 card3"
+        "card2 card3"; /* Define as áreas no grid */
+
+    gap: 1rem; /* Espaçamento entre as imagens, ajuste se necessário */
+    position: relative;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.card3 {
+    grid-area: card3;
+}
+.womanImg{
+    position: absolute;
+    top: 14rem;
+    right: 31rem;
+    transform: rotate(-5deg);
+}
+.svgHero1{
+    position: absolute;
+    top: 39rem;
+    right: 44rem;
+}

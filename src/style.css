@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -89,6 +90,11 @@ a:hover {
 
 .strong {
   font-weight: 800;
+}
+
+.widthLimit {
+  max-width: 133.2rem;
+  min-width: 16rem;
 }
 
 .btnLogin {
@@ -189,6 +195,78 @@ a:hover {
 .btnSearch:hover {
   background-color: #FFFFFF;
   color: #E8006A;
+}
+
+.cardHeroContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.mainCard {
+  width: 80rem;
+  background: 0px;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.mainCard h1 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.mainCard p {
+  width: 45rem;
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.7rem;
+  letter-spacing: -0.14px;
+  margin-bottom: 2rem;
+}
+
+.cardHero {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardImgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Define duas colunas de largura igual */
+  grid-template-rows: auto auto; /* Define duas linhas com altura automática */
+  grid-template-areas: "card1 card3" "card2 card3"; /* Define as áreas no grid */
+  gap: 1rem; /* Espaçamento entre as imagens, ajuste se necessário */
+  position: relative;
+}
+
+.card1 {
+  grid-area: card1;
+}
+
+.card2 {
+  grid-area: card2;
+}
+
+.card3 {
+  grid-area: card3;
+}
+
+.womanImg {
+  position: absolute;
+  top: 14rem;
+  right: 31rem;
+  transform: rotate(-5deg);
+}
+
+.svgHero1 {
+  position: absolute;
+  top: 39rem;
+  right: 44rem;
 }
 
 .cardManu {
