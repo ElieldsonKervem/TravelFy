@@ -75,13 +75,120 @@ h1, h2 {
 }
 
 a {
-  color: #000;
-  /* Subtitle2 */
-  font-size: 14px;
+  font-family: Inter;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.14px;
+  color: #000000;
+}
+a:hover {
+  color: #F72585;
+}
+
+.strong {
+  font-weight: 800;
+}
+
+.btnLogin {
+  color: #E8006A;
+  background-color: #FFFFFF;
+  border: 1px solid #F72585;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  letter-spacing: -0.14px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0rem 2rem;
+  border: none;
+}
+.btnLogin:hover {
+  background-color: #E8006A;
+  color: #FFFFFF;
+}
+
+.btnRegister {
+  color: #E8006A;
+  background-color: #FFFFFF;
+  border: 1px solid #F72585;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  letter-spacing: -0.14px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0rem 2rem;
+}
+.btnRegister:hover {
+  background-color: #E8006A;
+  color: #FFFFFF;
+}
+
+.logo {
+  font-size: 3.9rem;
+}
+
+.cardNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.seachContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90rem;
+  background: #FFFFFF;
+  border-radius: 5.5rem;
+  padding: 4rem 0rem;
+  margin-top: 8rem;
+  box-shadow: 52px 229px 66px 0px rgba(0, 0, 0, 0), 33px 146px 60px 0px rgba(0, 0, 0, 0.01), 19px 82px 51px 0px rgba(0, 0, 0, 0.05), 8px 37px 38px 0px rgba(0, 0, 0, 0.09), 2px 9px 21px 0px rgba(0, 0, 0, 0.1);
+}
+
+.searchDrawer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listItemDrawer {
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: bold;
+  letter-spacing: -0.14px;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.listItemDrawerMsg {
+  margin-right: 5rem;
+}
+
+.btnSearch {
+  color: #FFFFFF;
+  background-color: #E8006A;
+  border: 1px solid #F72585;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  letter-spacing: -0.14px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0rem 2rem;
+  border: none;
+  width: 19.5rem;
+  height: 5rem;
+}
+.btnSearch:hover {
+  background-color: #FFFFFF;
+  color: #E8006A;
 }
 
 .cardManu {
@@ -90,17 +197,17 @@ a {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background-color: #f1f1f1;
 }
 
 .container {
-  width: 100vw;
-  background-color: rgba(255, 17, 255, 0.0666666667);
-  max-width: 120rem;
+  width: 90vw;
+  max-width: 133.2rem;
+  min-width: 16rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  align-items: baseline;
   padding: 8rem 0rem 0rem 0rem;
 }
 
@@ -110,7 +217,12 @@ a {
   justify-content: space-around;
   align-items: center;
   width: 50rem;
-  background-color: #f1f1f1;
+}
+
+.heroBg {
+  background-image: url("../../public/backGroundBg.png");
+  background-size: cover;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

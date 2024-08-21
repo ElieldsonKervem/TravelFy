@@ -1,0 +1,32 @@
+@import '_mixins.scss';
+
+
+.cardNav{
+    @include displayFlex(row, center, center);
+   
+}
+.seachContainer {
+    @include displayFlex(row, space-around, center);
+    @include boxeConfig(90rem,$branco,5.5rem,(4rem 0rem),8rem);
+    box-shadow: 52px 229px 66px 0px rgba(0, 0, 0, 0.00), 33px 146px 60px 0px rgba(0, 0, 0, 0.01), 19px 82px 51px 0px rgba(0, 0, 0, 0.05), 8px 37px 38px 0px rgba(0, 0, 0, 0.09), 2px 9px 21px 0px rgba(0, 0, 0, 0.10);
+}
+.searchDrawer{
+    @include displayFlex(row, flex-start,center);
+}
+.listItemDrawer{
+    @include fontMixin(Inter, 1.8rem, 700, bold, -0.14px);
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.listItemDrawerMsg{
+    margin-right: 5rem;
+}
+
+.btnSearch {
+    @include btnMixin($branco, $rosaForte, $primariaRosa);
+    margin: 0rem 2rem;
+    border: none;
+    width: 19.5rem;
+    height: 5rem;
+}

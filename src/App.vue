@@ -1,11 +1,13 @@
 <script setup>
 import CardMenu from './components/CardMenu.vue'
+import CardHeroNav from './components/CardHeroNav.vue'
 </script>
 
 <template>
-  <div>
-  </div>
-  <CardMenu />
+    <div>
+       <CardMenu />
+       <CardHeroNav />
+    </div>
 </template>
 
 <style scoped>

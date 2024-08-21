@@ -4,20 +4,28 @@
 .cardManu{
     @include displayFlex(row, center, center);
     width: 100vw;
-    background-color: #f1f1f1;
+   
 }
 .container{
-    width: 100vw;
-    background-color: #f1f1;
-    max-width: 120.0rem;
+    width: 90vw;  
+    max-width: 133.20rem;
+    min-width: 16rem;
     @include displayFlex(row, space-between, center);
+    align-items: baseline;
     padding: 8rem 0rem 0rem 0rem;
 
 }
 .menuList{
     @include displayFlex(row, space-around, center);
     width: 50rem;
-    background-color: #f1f1f1;
+  
+ 
+}
+.heroBg{
+    background-image: url('../../public/backGroundBg.png');
+    background-size: cover;
+    height: 100vh;
+    
 }
 
 

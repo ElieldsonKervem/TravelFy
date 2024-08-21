@@ -1,0 +1,15 @@
+@import '_mixins.scss';
+
+
+.btnLogin{
+    @include btnMixin($rosaForte, $branco, $primariaRosa);
+    margin: 0rem 2rem;
+    border: none
+}
+.btnRegister{
+    @include btnMixin($rosaForte, $branco, $primariaRosa);
+    margin: 0rem 2rem;
+}
+.logo{
+    font-size: 3.9rem;
+}

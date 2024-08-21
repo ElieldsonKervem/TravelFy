@@ -1,3 +1,5 @@
+@import '_colors.scss';
+
 *{
     margin: 0;
     padding: 0;
@@ -66,13 +68,18 @@ h1,h2{
     letter-spacing: -0.58px;
 }
 a{
-    color: #000;
-
-/* Subtitle2 */
-
-    font-size: 14px;
+    font-family: Inter;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.14px;
+    color: $preto;
+    &:hover{
+        color: $primariaRosa;
+    }
+}
+
+.strong{
+    font-weight: 800;
 }

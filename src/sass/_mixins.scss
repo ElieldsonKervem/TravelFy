@@ -1,7 +1,40 @@
+@import '_colors.scss';
 
 @mixin displayFlex($direction: row, $justify: center, $align: center) {
   display: flex;
   flex-direction: $direction;
   justify-content: $justify;
   align-items: $align;
+}
+
+@mixin btnMixin($color:$color, $bg:$bg, $border:none,$fontSize:1.8rem,$btnPadding:1rem 2rem) {
+  color: $color;
+  background-color: $bg;
+  border: 1px solid $primariaRosa;
+  padding: $btnPadding;
+  border-radius: 5rem;
+  letter-spacing: -0.14px;
+  font-size: $fontSize;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: $color;
+    color: $bg;
+  }
+}
+
+@mixin fontMixin($fontFamily: Inter, $fontSize: 1.8rem, $fontWeight: 500, $lineHeight: normal, $letterSpacing: -0.14px) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  line-height: $lineHeight;
+  letter-spacing: $letterSpacing;
+}
+
+@mixin boxeConfig($width,$backGround,$borderRadius,$padding,$marginTop){
+    width: $width;
+    background: $backGround;
+    border-radius: $borderRadius;
+    padding: $padding;
+    margin-top: $marginTop;
 }

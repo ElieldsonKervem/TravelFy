@@ -9,7 +9,9 @@ import { ref } from 'vue'
         <header class="mainHeader">
              <div class="container">
                 <div>
-                    <h2 class="logo">TRAVELFY</h2>
+                    <h2 class="logo">
+                        <span class="strong">TRAVEL</span>FY
+                    </h2>
                 </div>
                 <div>
                     <ul class="menuList">
@@ -29,7 +31,7 @@ import { ref } from 'vue'
                 </div>
                 <div>
                     <button class="btnLogin">LOGIN</button>
-                    <button class="btnLogin">SIGN UP</button>
+                    <button class="btnRegister">SIGN UP</button>
                 </div>
              </div>
         </header>
