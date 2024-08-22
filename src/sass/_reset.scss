@@ -28,6 +28,7 @@ time, mark, audio, video {
 }
 html{
     font-size: 62.5%; //10px
+    overflow-x: hidden;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -67,6 +68,15 @@ h1,h2{
     line-height: normal;
     letter-spacing: -0.58px;
 }
+h4{
+    font-family: Inter;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.58px;
+}
+
 a{
     font-family: Inter;
     font-size: 1.8rem;

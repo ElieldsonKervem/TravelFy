@@ -1,7 +1,9 @@
 <script setup>
-import CardMenu from './components/CardMenu.vue'
-import CardHeroNav from './components/CardHeroNav.vue'
-import HeroMainCard from './components/HeroMainCard.vue';
+  import CardMenu from './components/CardMenu.vue';
+  import CardHeroNav from './components/CardHeroNav.vue';
+  import HeroMainCard from './components/HeroMainCard.vue';
+  import CardSecudandary from './components/CardSecundary.vue';
+  import SliderHeroNav from './components/SliderHeroNav.vue';
 </script>
 
 <template>
@@ -9,20 +11,11 @@ import HeroMainCard from './components/HeroMainCard.vue';
        <CardMenu />
        <CardHeroNav />
        <HeroMainCard/>
+       <CardSecudandary/>
+       <SliderHeroNav/>
     </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>

@@ -28,6 +28,7 @@ time, mark, audio, video {
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -69,6 +70,15 @@ h1, h2 {
   /* H1 */
   font-family: Inter;
   font-size: 5.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.58px;
+}
+
+h4 {
+  font-family: Inter;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -267,6 +277,94 @@ a:hover {
   position: absolute;
   top: 39rem;
   right: 44rem;
+}
+
+.cardSecundary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  background: #FFFFFF;
+  border-radius: 0rem;
+  padding: 0rem 0rem;
+  margin-top: 20rem;
+  text-align: center;
+}
+.cardSecundary h4 {
+  width: 60rem;
+  margin-top: 1rem;
+}
+.cardSecundary p {
+  text-align: center;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 147.826% */
+  letter-spacing: 0.23px;
+  width: 40rem;
+}
+.cardSecundary h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.cardImgsIcons {
+  display: flex;
+  padding: 9rem;
+  position: relative;
+}
+
+.cardIcon3 {
+  position: relative;
+}
+
+.iconCards2 {
+  position: absolute;
+  z-index: 2;
+  /* background: red; */
+  top: 12.5rem;
+  left: 65rem;
+}
+
+.iconCards3 {
+  position: absolute;
+  z-index: 2;
+  /* background: red; */
+  top: 12.5rem;
+  left: 24.8rem;
+}
+
+.iconCards1 {
+  position: absolute;
+  z-index: 2;
+  top: 4.8rem;
+  left: 17rem;
+}
+
+.cardSlider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  background: #FFFFFF;
+  border-radius: 0rem;
+  padding: 0rem 0rem;
+  margin-top: 5rem;
+  text-align: center;
+  padding-bottom: 20rem;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15rem;
 }
 
 .cardManu {

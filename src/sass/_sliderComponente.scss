@@ -1,0 +1,14 @@
+@import '_mixins.scss';
+
+.cardSlider{
+    @include displayFlex(column, center, center);
+    @include boxeConfig(99vw,$branco,0rem,(0rem 0rem),5rem);
+    text-align: center;
+    padding-bottom: 20rem;
+}
+.slider{
+    @include displayFlex(row, center, center);
+    width: 100%;
+     margin-top: 15rem;
+    
+}
