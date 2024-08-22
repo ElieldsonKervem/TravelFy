@@ -13,7 +13,7 @@ import { ref } from 'vue'
           <div class="containerSlider">
                 <div class="slider">
                     <div class="slide">
-                        <img src="../../public/rioDeJaneiro.png" alt="rio de janeiro">
+                        <img src="../../public/rj.png" alt="rio de janeiro">
                         <div class="content">
                             <h3>Rio de Janeiro</h3>
                             <i></i>
@@ -34,6 +34,15 @@ import { ref } from 'vue'
                         <img src="../../public/natal.png" alt="fortaleza">
                         <div class="content">
                             <h3>Natal</h3>
+                            <i></i>
+                            <button>{{$valor}}</button>
+                            <h6>4,8 (940 reviews)</h6>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="../../publiC/amazonia.png" alt="amazonia">
+                        <div class="content">
+                            <h3>Amanzonia</h3>
                             <i></i>
                             <button>{{$valor}}</button>
                             <h6>4,8 (940 reviews)</h6>
