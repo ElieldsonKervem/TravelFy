@@ -14,7 +14,7 @@
     }
     p{
         width: 45rem;
-        @include fontMixin(Inter, 1.8rem, 700, 2.7rem, -0.14px);
+        @include fontMixin(Inter, 1.8rem, 500, 2.7rem, -0.14px);
         margin-bottom: 2rem;
     }
 }

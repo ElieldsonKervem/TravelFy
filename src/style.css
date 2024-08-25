@@ -173,6 +173,10 @@ a:hover {
   align-items: center;
 }
 
+.searchDrawer div:nth-child(3) {
+  margin-right: 1rem;
+}
+
 .listItemDrawer {
   font-family: Inter;
   font-size: 1.8rem;
@@ -201,10 +205,18 @@ a:hover {
   border: none;
   width: 19.5rem;
   height: 5rem;
+  position: relative;
 }
 .btnSearch:hover {
   background-color: #FFFFFF;
   color: #E8006A;
+}
+
+.search img {
+  position: absolute;
+  right: 11vw;
+  top: 27.3rem;
+  font-weight: 800;
 }
 
 .cardHeroContainer {
@@ -234,7 +246,7 @@ a:hover {
   width: 45rem;
   font-family: Inter;
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 2.7rem;
   letter-spacing: -0.14px;
   margin-bottom: 2rem;
@@ -382,6 +394,247 @@ a:hover {
   padding-bottom: 2rem;
 }
 
+.containerSlider2 .slider {
+  justify-content: start;
+}
+
+div#containerSlider2 {
+  margin-top: 14rem;
+}
+
+.cardComment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  padding-bottom: 15rem;
+}
+.cardComment .commentFistCard {
+  width: 50rem;
+}
+.cardComment .commentSecondCard {
+  width: 50rem;
+  margin-left: 4rem;
+  border-radius: 10px;
+  background: #EAE7E7;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 30rem;
+  position: relative;
+}
+.cardComment .commentSecondCard .commentCard {
+  position: relative;
+}
+.cardComment .commentSecondCard .commentCard img {
+  position: absolute;
+  top: 9rem;
+  left: -8rem;
+}
+.cardComment .commentSecondCard .commentCard h4 {
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  background: #FFFFFF;
+  width: 20rem;
+  position: absolute;
+  top: 4rem;
+  left: 13rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.cardComment .commentSecondCard .commentCard p {
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  width: 34rem;
+  position: absolute;
+  top: 10rem;
+  left: 12rem;
+}
+.cardComment .commentSecondCard .commentCard .cardTags span {
+  background: #F72585;
+  width: 9.6rem;
+  height: 2.8rem;
+  padding: 0.6rem 1.9rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.cardComment .commentSecondCard .commentCard .cardTags span:nth-child(2) {
+  position: absolute;
+  top: 24rem;
+  left: 34rem;
+}
+.cardComment .commentSecondCard .commentCard .cardTags span:nth-child(3) {
+  position: absolute;
+  top: 24rem;
+  left: 22rem;
+}
+.cardComment .commentSecondCard .commentCard .cardTags span:nth-child(1) {
+  position: absolute;
+  top: 24rem;
+  left: 10rem;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background: hsba(0, 0%, 71%, 0.21);
+}
+.footer .newLatterCard {
+  width: 117.7rem;
+  height: 54.7rem;
+  flex-shrink: 0;
+  text-align: center;
+  background: #F72585;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.footer .headerLatterCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 3rem;
+  color: #FFFFFF;
+}
+.footer .headerLatterCard p {
+  font-family: Inter;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.14px;
+  padding: 2rem 23rem;
+}
+.footer .emaiInput {
+  width: 104.1rem;
+  height: 11.1rem;
+  flex-shrink: 0;
+  border-radius: 70px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 5rem;
+  font-size: 1.8rem;
+}
+.footer button.subscribe {
+  width: 35rem;
+  padding: 18px 32px 17px 27px;
+  align-items: center;
+  border-radius: 70px;
+  background: #F72585;
+  position: absolute;
+  top: 37rem;
+  right: 46rem;
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.footer .flysvg {
+  position: absolute;
+  top: 38rem;
+  right: 145rem;
+  transform: rotate(10deg);
+}
+.footer footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  width: 70vw;
+}
+.footer footer ul > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.footer .footerfirstContainer {
+  width: 33rem;
+  text-align: left;
+}
+.footer .footerfirstContainer h3 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+.footer .footerfirstContainer p {
+  margin-bottom: 2rem;
+}
+.footer .footerSecondContainer {
+  width: 63rem;
+  padding-left: 8rem;
+}
+.footer .footerSecondContainer > ul {
+  display: flex;
+}
+.footer ul li:first-child {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.footer li {
+  margin-bottom: 1rem;
+}
+.footer .iconsFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+/* Para telas com largura máxima de 1200px (desktops grandes e menores) */
+@media (max-width: 1200px) {
+  /* Estilos específicos para telas com no máximo 1200px de largura */
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  .header {
+    font-size: 1.8rem;
+  }
+}
+/* Para tablets (largura entre 768px e 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos específicos para tablets */
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+  .header {
+    font-size: 1.5rem;
+  }
+}
+/* Para celulares (largura máxima de 768px) */
+@media (max-width: 768px) {
+  /* Estilos específicos para celulares */
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  .header {
+    font-size: 1.2rem;
+  }
+}
 .cardManu {
   display: flex;
   flex-direction: row;

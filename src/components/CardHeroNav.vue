@@ -12,7 +12,7 @@ import { ref } from 'vue'
                     <ul class="listDestiny">
                         <li class="listItemDrawer">
                             DESTINOS
-                            <i></i>
+                            <img src="../../public/arrowdown.svg" alt="arrow" >
                         </li>
                         <li class="listItemDrawerMsg">
                             <p>Para onde <br> deseja viajar?</p>
@@ -23,7 +23,7 @@ import { ref } from 'vue'
                     <ul class="listDestiny">
                         <li class="listItemDrawer">
                             DATAS
-                            <i></i>
+                            <img src="../../public/arrowdown.svg" alt="arrow" >
                         </li>
                         <li class="listItemDrawerMsg">
                             <p>Quando deseja <br> viajar ?</p>
@@ -34,7 +34,7 @@ import { ref } from 'vue'
                     <ul class="listDestiny">
                         <li class="listItemDrawer">
                             PESSOAS
-                            <i></i>
+                            <img src="../../public/arrowdown.svg" alt="arrow" >
                         </li>
                         <li class="listItemDrawerMsg">
                             <p>Quantas <br> pessoas ?</p>
@@ -45,7 +45,7 @@ import { ref } from 'vue'
                     <ul class="listDestiny">
                         <li class="listItemDrawer">
                             PROMOÇÕES
-                            <i></i>
+                            <img src="../../public/arrowdown.svg" alt="arrow" >
                         </li>
                         <li class="listItemDrawerMsg">
                             <p>Escolha <br> a classe ?</p>
@@ -56,7 +56,7 @@ import { ref } from 'vue'
             <div class="search">
                  <div>
                     <input class="btnSearch" type="button" value="Buscar" >
-                    <i></i>
+                    <img src="../../public/search.svg" alt="" style="color: aliceblue;">
                  </div>
             </div>
          </div>

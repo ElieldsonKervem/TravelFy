@@ -59,6 +59,62 @@ import { ref } from 'vue'
                     </div>
                 </div>
           </div>
+
+
+
+          <div class="sliderSection" id="containerSlider2">
+            <h1>Destino Internacionais</h1>
+            <p>Destino Internacionais: Descubra os lugares mais fascinantes ao redor do mundo, desde metrópoles vibrantes até paraísos naturais.</p>                 
+         </div>
+          <div class="containerSlider2">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="../../public/china.png" alt="China">
+                        <div class="content">
+                            <h3>China</h3>
+                            <i></i>
+                            <button>{{$valor}}</button>
+                            <h6>4,8 (940 reviews)</h6>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="../../public/japao.png" alt="são paulo">
+                        <div class="content">
+                            <h3>Japao</h3>
+                            <i></i>
+                            <button>{{$valor}}</button>
+                            <h6>4,8 (940 reviews)</h6>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="../../public/dubainew.png" alt="fortaleza">
+                        <div class="content">
+                            <h3>Dubai</h3>
+                            <i></i>
+                            <button>{{$valor}}</button>
+                            <h6>4,8 (940 reviews)</h6>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="../../public/PARIS.png" alt="amazonia">
+                        <div class="content">
+                            <h3>Paris</h3>
+                            <i></i>
+                            <button>{{$valor}}</button>
+                            <h6>4,8 (940 reviews)</h6>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="../../publiC/roma.png" alt="amazonia">
+                        <div class="content">
+                            <h3>Roma</h3>
+                            <i></i>
+                            <button>{{$valor}}</button>
+                            <h6>4,8 (940 reviews)</h6>
+                        </div>
+                    </div>
+                </div>
+          </div>
     </div>
 </template>
 

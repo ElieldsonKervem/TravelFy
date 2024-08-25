@@ -1,0 +1,108 @@
+@import '_mixins.scss';
+
+
+.footer{
+    @include displayFlex(column, center, center);
+    text-align: center;
+    position: relative;
+    background: hsba(0, 0%, 71%, 0.21);
+    .newLatterCard {
+        width: 117.7rem;
+        height: 54.7rem;
+        flex-shrink: 0;
+        text-align: center;
+        background: $primariaRosa;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .headerLatterCard{
+        @include displayFlex(column, space-between, center);
+        
+        padding: 5rem 3rem;
+        color: $branco;
+        p{
+            @include fontMixin(Inter, 2.4rem, 500, normal, -0.14px);
+            padding: 2rem 23rem;
+        }
+       
+    }
+    .emaiInput{
+        width: 104.1rem;
+        height: 11.1rem;
+        flex-shrink: 0;
+        border-radius: 70px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border: none;
+        padding: 5rem;
+        font-size: 1.8rem;
+       
+
+    }
+    button.subscribe {
+        
+        width: 35rem;
+        padding: 18px 32px 17px 27px;
+        align-items: center;
+        border-radius: 70px;
+        background: $primariaRosa;
+        position: absolute;
+        top: 37rem;
+        right: 46rem;
+        border: none;
+        text-align: center;
+        color: $branco;
+        font-size: 2.1rem;
+        font-weight: bold;
+    }
+    .flysvg{
+        position: absolute;
+        top: 38rem;
+        right: 145rem;
+        transform: rotate(10deg);
+    } 
+    footer{
+        @include displayFlex(row, space-between, center);
+        margin-top: 20rem;
+        margin-bottom: 10rem;
+        width: 70vw;
+        ul > ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 2rem;
+        }
+    }
+    .footerfirstContainer {
+        width: 33rem;
+        text-align: left;
+        h3{
+            font-weight: 800;
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+        }
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+    .footerSecondContainer {
+        width: 63rem;
+        padding-left: 8rem;
+        
+    }
+
+    .footerSecondContainer > ul{
+        display: flex;
+    }
+    ul li:first-child {
+        font-weight: bold;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    li{
+        margin-bottom: 1rem;
+    }
+    .iconsFooter {
+        @include displayFlex(row, start, center);
+    }
+}

@@ -4,6 +4,8 @@
   import HeroMainCard from './components/HeroMainCard.vue';
   import CardSecudandary from './components/CardSecundary.vue';
   import SliderHeroNav from './components/SliderHeroNav.vue';
+  import CommetCard from './components/CommentCard.vue';
+  import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -13,6 +15,8 @@
        <HeroMainCard/>
        <CardSecudandary/>
        <SliderHeroNav/>
+       <CommetCard/>
+       <Footer/>
     </div>
 </template>
 
