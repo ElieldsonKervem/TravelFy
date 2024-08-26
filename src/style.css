@@ -98,6 +98,10 @@ a:hover {
   color: #F72585;
 }
 
+svg {
+  display: inline;
+}
+
 .strong {
   font-weight: 800;
 }
@@ -375,29 +379,6 @@ a:hover {
   position: relative;
 }
 
-.iconCards2 {
-  position: absolute;
-  z-index: 2;
-  /* background: red; */
-  top: 12.5rem;
-  left: 65rem;
-}
-
-.iconCards3 {
-  position: absolute;
-  z-index: 2;
-  /* background: red; */
-  top: 12.5rem;
-  left: 24.8rem;
-}
-
-.iconCards1 {
-  position: absolute;
-  z-index: 2;
-  top: 4.8rem;
-  left: 17rem;
-}
-
 .cardSlider {
   display: flex;
   flex-direction: column;
@@ -644,33 +625,116 @@ div#containerSlider2 {
   align-items: center;
 }
 
-/* Para telas com largura máxima de 1200px (desktops grandes e menores) */
 @media (max-width: 1200px) {
-  /* Estilos específicos para telas com no máximo 1200px de largura */
   .container {
-    width: 100%;
+    align-items: end;
     padding: 20px;
+  }
+  .container ul.menuList {
+    display: none;
+  }
+  .container button {
+    display: none;
   }
   .header {
     font-size: 1.8rem;
   }
+  .cardSecundary p {
+    width: 30rem;
+  }
+  .iconCards2 {
+    left: 48vw;
+  }
+  .iconCards1 {
+    left: 12rem;
+  }
+  .iconCards3 {
+    left: 19vw;
+  }
+  .cardComment .commentFistCard {
+    width: 38rem;
+  }
+  .cardComment .commentSecondCard {
+    width: 47rem;
+    margin-left: -4rem;
+  }
+  .cardPanies img {
+    width: 24rem;
+  }
+  .footer .newLatterCard {
+    width: 105.7rem;
+    height: 51.7rem;
+  }
+  .footer h2 {
+    font-size: 4.8rem;
+  }
+  .footer .emaiInput {
+    width: 62vw;
+  }
+  .footer button.subscribe {
+    width: 25rem;
+    top: 34rem;
+    right: 23rem;
+  }
 }
-/* Para tablets (largura entre 768px e 1024px) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* Estilos específicos para tablets */
-  .container {
-    width: 90%;
-    padding: 15px;
+@media (min-width: 768px) and (max-width: 1090px) {
+  .cardHeroContainer {
+    margin-top: 17rem;
+  }
+  .seachContainer {
+    flex-direction: column;
+    width: 68rem;
+    padding: 2rem 0rem;
+  }
+  .btnSearch {
+    width: 16.5rem;
+    height: 4rem;
+    top: 1.3rem;
+  }
+  .card3 {
+    display: none;
+  }
+  .womanImg {
+    position: absolute;
+    top: -15rem;
+    right: 11rem;
+    height: 25rem;
+    z-index: -1;
+  }
+  .svgHero1 {
+    display: none;
+  }
+  .mainCard p {
+    width: 32rem;
+  }
+  .mainCard h1 {
+    font-size: 4rem;
   }
   .header {
     font-size: 1.5rem;
   }
+  h2 {
+    font-size: 3.4rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  .cardImgsIcons {
+    display: flex;
+    padding: 9rem;
+    position: relative;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .cardImgsIcons h3 {
+    font-size: 2.3rem;
+  }
+  .cardImgsIcons p {
+    font-size: 1.8rem;
+  }
 }
-/* Para celulares (largura máxima de 768px) */
 @media (max-width: 768px) {
-  /* Estilos específicos para celulares */
   .container {
-    width: 100%;
     padding: 10px;
   }
   .header {
