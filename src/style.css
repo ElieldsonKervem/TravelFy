@@ -107,6 +107,48 @@ a:hover {
   min-width: 16rem;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.cardManu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.container {
+  width: 90vw;
+  max-width: 133.2rem;
+  min-width: 16rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: baseline;
+  padding: 8rem 0rem 0rem 0rem;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50rem;
+}
+
+.heroBg {
+  background-image: url("../../public/backGroundBg.png");
+  background-size: cover;
+  height: 100vh;
+}
+
 .btnLogin {
   color: #E8006A;
   background-color: #FFFFFF;
@@ -634,39 +676,6 @@ div#containerSlider2 {
   .header {
     font-size: 1.2rem;
   }
-}
-.cardManu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-}
-
-.container {
-  width: 90vw;
-  max-width: 133.2rem;
-  min-width: 16rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-items: baseline;
-  padding: 8rem 0rem 0rem 0rem;
-}
-
-.menuList {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 50rem;
-}
-
-.heroBg {
-  background-image: url("../../public/backGroundBg.png");
-  background-size: cover;
-  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

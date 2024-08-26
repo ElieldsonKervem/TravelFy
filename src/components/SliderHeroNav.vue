@@ -17,7 +17,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Rio de Janeiro</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                       
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -26,7 +26,6 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>São paulo</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -35,7 +34,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Natal</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                           
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -44,7 +43,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Amanzonia</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                      
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -53,7 +52,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Amanzonia</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                      
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -73,7 +72,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>China</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                          
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -82,7 +81,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Japao</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                         
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -91,7 +90,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Dubai</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                        
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -100,7 +99,9 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Paris</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+                           
+
+
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>
@@ -109,7 +110,7 @@ import { ref } from 'vue'
                         <div class="content">
                             <h3>Roma</h3>
                             <i></i>
-                            <button>{{$valor}}</button>
+             
                             <h6>4,8 (940 reviews)</h6>
                         </div>
                     </div>

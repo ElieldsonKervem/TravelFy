@@ -1,32 +1,7 @@
 @import '_bootstrap.scss';
 
 
-.cardManu{
-    @include displayFlex(row, center, center);
-    width: 100vw;
-   
-}
-.container{
-    width: 90vw;  
-    max-width: 133.20rem;
-    min-width: 16rem;
-    @include displayFlex(row, space-between, center);
-    align-items: baseline;
-    padding: 8rem 0rem 0rem 0rem;
 
-}
-.menuList{
-    @include displayFlex(row, space-around, center);
-    width: 50rem;
-  
- 
-}
-.heroBg{
-    background-image: url('../../public/backGroundBg.png');
-    background-size: cover;
-    height: 100vh;
-    
-}
 
 
 
