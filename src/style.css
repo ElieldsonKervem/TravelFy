@@ -732,6 +732,48 @@ div#containerSlider2 {
   .cardImgsIcons p {
     font-size: 1.8rem;
   }
+  .sliderSection h1 {
+    font-size: 3.4rem;
+  }
+  .sliderSection p {
+    font-size: 1.6rem;
+  }
+  .containerSlider .slider {
+    margin-top: 8rem;
+    width: 72vw;
+  }
+  .cardSlider {
+    margin-top: 0rem;
+    padding-bottom: 15rem;
+  }
+  div#containerSlider2 {
+    margin-top: 6rem;
+  }
+  .slider {
+    margin-top: 8rem;
+    width: 66rem;
+  }
+  .cardComment {
+    flex-direction: column;
+  }
+  .commentFistCard h1 {
+    font-size: 3.4rem;
+    width: 50rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .commentFistCard p {
+    width: 50rem;
+    text-align: center;
+  }
+  .cardComment .commentSecondCard {
+    width: 47rem;
+    margin-left: 0rem;
+    margin-top: 5rem;
+  }
+  .commentCard img {
+    width: 10rem;
+  }
 }
 @media (max-width: 768px) {
   .container {
