@@ -755,6 +755,7 @@ div#containerSlider2 {
   }
   .cardComment {
     flex-direction: column;
+    padding-bottom: 10rem;
   }
   .commentFistCard h1 {
     font-size: 3.4rem;
@@ -767,12 +768,65 @@ div#containerSlider2 {
     text-align: center;
   }
   .cardComment .commentSecondCard {
-    width: 47rem;
+    width: 40rem;
     margin-left: 0rem;
     margin-top: 5rem;
   }
-  .commentCard img {
-    width: 10rem;
+  .cardComment .commentSecondCard .commentCard h4 {
+    font-size: 2.4rem;
+    left: 8rem;
+  }
+  .cardComment .commentSecondCard .commentCard p {
+    font-size: 1.4rem;
+    width: 20rem;
+  }
+  .cardComment .commentSecondCard .commentCard img {
+    width: 15rem;
+  }
+  .cardComment .commentSecondCard .commentCard .cardTags span {
+    width: 8rem;
+    height: 3rem;
+  }
+  .cardComment .commentSecondCard .commentCard .cardTags span:nth-child(1) {
+    left: 7rem;
+  }
+  .cardComment .commentSecondCard .commentCard .cardTags span:nth-child(3) {
+    left: 17rem;
+  }
+  .cardComment .commentSecondCard .commentCard .cardTags span:nth-child(2) {
+    left: 27rem;
+  }
+  .cardPanies img {
+    width: 20rem;
+  }
+  .companies {
+    flex-direction: column;
+    gap: 5rem;
+    align-items: start;
+    margin-left: 10rem;
+    padding-bottom: 10rem;
+  }
+  .footer .newLatterCard {
+    width: 65.7rem;
+    height: 36.7rem;
+  }
+  .footer h2 {
+    font-size: 2.8rem;
+  }
+  .footer .headerLatterCard p {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+  }
+  .footer .emaiInput {
+    height: 6rem;
+    padding: 3rem;
+  }
+  .footer button.subscribe {
+    display: none;
+  }
+  .footer footer {
+    margin-top: 12rem;
+    margin-bottom: 4rem;
   }
 }
 @media (max-width: 768px) {
