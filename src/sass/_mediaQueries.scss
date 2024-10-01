@@ -248,13 +248,194 @@
   
 }
   @media (max-width: 768px) {
- 
-    .container {
-    
-      padding: 10px;
+    .seachContainer{
+      width: 55rem;
+      padding: 3rem 1rem 1rem 1rem;
+      flex-direction: column;
+      margin-top: 3rem;
     }
-    .header {
-      font-size: 1.2rem;
+    .searchDrawer {
+      width: 48rem;
+      font-size: 1rem;
+      align-items: start;
+  }
+  .btnSearch {
+    font-size: 1.6rem;
+    margin: 1rem 2rem;
+    width: 16.5rem;
+    height: 4rem;
+  
+}
+li.listItemDrawer {
+  display: flex;
+
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+ul.listDestiny {
+  margin-right: 1rem;
+}
+.cardHeroContainer {
+      margin-top: 5rem;
+      gap: 8rem;
+  }
+  .mainCard {
+    width: 27rem;
+    padding: 1rem;
+    h1{
+      font-size: 3.8rem;
+    }
+    p{
+      width: 24rem;
+      font-size: 1.4rem;
+    }
+   
+}
+.card3 {
+  display: none;
+}
+.card1,.card2 {
+  img{
+    width: 20rem;
+  }
+}
+.cardImgs {
+
+  grid-template-areas:
+      "card1 card1"
+      "card2 card2";
+  gap: 3rem;
+  position: relative;
+}
+.womanImg {
+  position: absolute;
+  top: 16rem;
+  right: 3rem;
+
+}
+.ellipse#Ellipse\ 1 {
+  display: none;
+}
+.cardTravelfy {
+  width: 58rem;
+  text-align: center;
+}
+.cardSecundary h4 {
+  width: auto;
+  margin-top: 1rem;
+  padding: 0rem 5rem;
+}
+.cardImgsIcons {
+ 
+  
+  flex-direction: column;
+  gap: 6rem;
+}
+.svgHero1{
+  display: none;
+}
+.cardTravelfy{
+  h2{
+    font-size: 3.4rem;
+    margin-top: 6rem;
+  }
+  h4{
+    font-size: 1.6rem;
+  }
+}
+.cardImgsIcons{
+  h3{
+    font-size: 3.3rem;
+  }
+  p{
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+.cardSlider{
+  margin-top: 1rem;
+  padding-bottom: 10rem;
+}
+.sliderSection{
+  h1{
+    font-size: 3.4rem;
+  }
+  p{
+    font-size: 1.6rem;
+    width: 50rem;
+  }
+}
+.slider{
+  margin-top: 8rem;
+  width: 44rem;
+}
+.cardComment .commentSecondCard .commentCard img{
+  left: -7rem;
+}
+.cardComment{
+  flex-direction: column;
+  gap: 6rem;
+  padding-bottom: 0rem;
+  .commentFistCard{
+    h1{
+      font-size: 3.4rem;
+    
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    p{
+      
+      text-align: center;
     }
   }
+}
+.companies{
+  flex-direction: column;
+  gap: 3rem;
+  padding: 10rem;
+}
+.footer .newLatterCard {
+  width: 52.7rem;
+  height: 34.4rem;
+}
+.footer .headerLatterCard{
+  h2{
+    font-size: 2.8rem;
+  }
+  p{
+    font-size: 1.6rem;
+    padding: 0;
+  }
   
+}
+.footer .emaiInput{
+  height: 6rem;
+  padding: 3rem;
+ }
+ .footer button.subscribe {
+  display: none;
+ }
+ .footer footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  width: 90vw;
+}
+.footer .footerfirstContainer {
+  width: 100%;
+  text-align: left;
+  padding: 0rem 4rem;
+}
+.footer .footerSecondContainer {
+  width: 63rem;
+  padding-left: 4rem;
+  
+}
+.menuCard {
+  display: none;
+}
+}

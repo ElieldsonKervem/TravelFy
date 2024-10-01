@@ -6,6 +6,7 @@
   import SliderHeroNav from './components/SliderHeroNav.vue';
   import CommetCard from './components/CommentCard.vue';
   import Footer from './components/Footer.vue';
+  import menuBurger from './components/MenuBurger.vue';
 </script>
 
 <template>
@@ -17,6 +18,7 @@
        <SliderHeroNav/>
        <CommetCard/>
        <Footer/>
+       <menuBurger/>
     </div>
 </template>
 
